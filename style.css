@@ -1,0 +1,621 @@
+*{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: consolas;
+}
+section{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	font-size: 20px;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+
+}
+section:nth-child(even){
+	background-color: #262626;
+}
+nav{
+	position: absolute;
+	top: 0;
+	background-color: black;
+	width: 100%;
+	height: 10vh;
+	text-align: right;
+	text-transform: uppercase;
+	margin-top: 0px;
+	justify-content: center;
+	background:rgba(2,2,2,0.2);
+
+	
+}
+nav a{
+	position: relative;
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 10px ;
+
+}
+nav a:hover
+
+{
+	color: black;
+	background-color: white;
+
+}
+::-webkit-scrollbar{
+	width: 0;
+}
+#myVideo{
+	margin: 0;
+	width: 100%;
+	opacity: 0.8;
+
+}
+#one{
+	background-color: #c6fcfc;
+}
+.inside{
+	position: absolute;
+}
+.heading{
+	font-size: 40px;
+	position: absolute;
+	left: 100px;
+	top: 150px;
+	text-transform: uppercase;
+	color: #8222e9;
+	opacity: 1;
+
+}
+.name{
+	position: absolute;
+	top: 300px;
+	color: #0d3586;
+	font-size: 60px;
+	border: 2px solid #8222e9;
+	padding: 10px;
+	border-radius: 50px;
+	background:rgba(2,2,2,0.2);
+	cursor: pointer;
+}
+.name a{
+	text-decoration: none;
+	color: #7695d5;
+	cursor: pointer;
+}
+.name a:hover{
+	color: #8222e9;
+}
+.logo{
+	position: absolute;
+	color: white;
+	top: 5px;
+	left:10px;
+	font-size: 50px;
+}
+.icon{
+	position: absolute;
+	left:350px;
+	width: 70px;height: 70px;
+}
+#two{
+	background-color: white;
+}
+.color{
+	position: absolute;
+	width: 100%;
+	height: 45vh;
+	top: 94%;
+	background-color: white;
+}
+.ironman{
+	 margin: 0;
+	 padding: 0;
+	 width: 100%;
+	 position: absolute;
+	 background-size: cover;
+	 height: -200px;
+}
+.color2{
+	background-color: #b9a6a6;
+	width: 100%;
+	height: 70px;
+	position:absolute;
+	top: 95%;
+}
+.pic{
+	position:absolute;
+	width: 450px;
+	height: 600px;
+	top: 99%;
+	left: 58%;
+	box-shadow: 3px 3px 10px black;
+}
+.about{
+	font-size: 50px;
+	position: absolute;
+	top: -35px;
+}
+.intro{
+	position: absolute;
+	width: 500px;
+	height: 600px;
+	background-color: white;
+	left: 20%;
+	top: 115%;
+	font-family: "Times new roman";
+}
+.intro h1{
+	font-size: 40px;
+}
+.intro p{
+	font-size: 20px;
+
+	
+}
+.social{
+	font-size: 20px;
+}
+.social{
+		position: relative;
+		left: 100px;
+		top: 10px;
+		font-size: 35px;
+		padding: 0px;
+	}
+	i{
+		padding: 0 10px;
+		color: #676c7a;
+	}
+	i:hover{
+		color: black;
+		transform: scale(1.5);
+	}
+#three{
+	background-color:#eeeef1;
+}
+.card1{
+	background-color: white;
+	position: relative;
+	top: 0px;
+	left:-20px;
+	width: 310px;
+	height: 450px;
+	border-radius: 8px;
+}
+.card2{
+	background-color: white;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 310px;
+	height: 450px;
+	border-radius: 8px;
+}
+.card3{
+	background-color: white;
+	position: relative;
+	top: 0px;
+	left:20px;
+	width: 310px;
+	height: 450px;
+	border-radius: 8px;
+}
+.card4{
+	background-color: white;
+	position: relative;
+	left:40px;
+	top: 0px;
+	width: 310px;
+	height: 450px;
+	border-radius: 8px;
+}
+.info1{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.info2{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.info3{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.info4{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.name1{
+	font-size: 30px;
+	font-family: "Raleway",sans-serif;
+	position: relative;
+	top: 100px;
+	
+	left: 2px;
+}
+.name2{
+	font-size: 30px;
+	font-family: "Raleway",sans-serif;
+	position: relative;
+	top: 100px;
+	
+	left: 2px;
+}
+.name3{
+	font-size: 30px;
+	font-family: "Raleway",sans-serif;
+	position: relative;
+	top: 100px;
+	
+	left: 2px;
+}
+.name4{
+	font-size: 30px;
+	font-family: "Raleway",sans-serif;
+	position: relative;
+	top: 100px;
+	
+	left: 2px;
+}
+.prof1{
+	position: absolute;
+	font-size: 20px;
+	top: 140px;
+	font-family: "Work Sans",sans-serif;
+}
+.prof2{
+	position: absolute;
+	font-size: 20px;
+	top: 140px;
+	font-family: "Work Sans",sans-serif;
+}
+.prof3{
+	position: absolute;
+	font-size: 20px;
+	top: 140px;
+	font-family: "Work Sans",sans-serif;
+}
+.prof4{
+	position: absolute;
+	font-size: 20px;
+	top: 140px;
+	font-family: "Work Sans",sans-serif;
+}
+.divider1{
+	background-color: #949594;
+	height: 1.5px;
+	width: 50px;
+	position: absolute;
+	top: 190px;
+}
+.divider2{
+	background-color: #949594;
+	height: 1.5px;
+	width: 50px;
+	position: absolute;
+	top: 190px;
+}
+.divider3{
+	background-color: #949594;
+	height: 1.5px;
+	width: 50px;
+	position: absolute;
+	top: 190px;
+}
+.divider4{
+	background-color: #949594;
+	height: 1.5px;
+	width: 50px;
+	position: absolute;
+	top: 190px;
+}
+.bio1{
+	position: absolute;
+	top: 220px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Work Sans",sans-serif;
+	line-height: 28px;
+}
+.bio2{
+	position: absolute;
+	top: 220px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Work Sans",sans-serif;
+	line-height: 28px;
+}
+.bio3{
+	position: absolute;
+	top: 220px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Work Sans",sans-serif;
+	line-height: 28px;
+}
+.bio4{
+	position: absolute;
+	top: 220px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Work Sans",sans-serif;
+	line-height: 28px;
+}
+button{
+	position: absolute;
+	bottom: 10px;
+	font-size: 20px;
+	padding: 10px 10px;
+	background-color: #6969f1;
+	color: white;
+	font-family: "Work Sans",sans-serif;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.photo1{
+	height: 100%;
+	width: 100%;
+	background: url(https://wallpapercave.com/wp/kXR0O7X.jpg);
+	position: absolute;
+	bottom: 0;
+	background-size: 100% 100%;
+	border-radius: 8px;
+	transition: 0.8s;
+}
+.card1:hover .photo1{
+	transform: scale(0.5,0.35) translateY(-650px);
+	background-size: 100% 150%;
+	background-position: 0 -25px;
+	border-radius: 50%;
+
+}
+.photo2{
+	height: 100%;
+	width: 100%;
+	background: url(https://cdn.britannica.com/s:500x350/30/182830-004-61C7794A.jpg);
+	position: absolute;
+	bottom: 0;
+	background-size: 100% 100%;
+	border-radius: 8px;
+	transition: 0.8s;
+}
+.card2:hover .photo2{
+	transform: scale(0.5,0.35) translateY(-650px);
+	background-size: 100% 150%;
+	background-position: 0 -25px;
+	border-radius: 50%;
+
+}
+.photo3{
+	height: 100%;
+	width: 100%;
+	background: url(http://im.rediff.com/movies/2019/mar/06captain-marvel1.jpg);
+	position: absolute;
+	bottom: 0;
+	background-size: 100% 100%;
+	border-radius: 8px;
+	transition: 0.8s;
+}
+.card3:hover .photo3{
+	transform: scale(0.5,0.35) translateY(-650px);
+	background-size: 100% 150%;
+	background-position: 0 -25px;
+	border-radius: 50%;
+
+}
+.photo4{
+	height: 100%;
+	width: 100%;
+	background: url(https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/1/13/Thor-EndgameProfile.jpg/revision/latest/scale-to-width-down/310?cb=20190423174911);
+	position: absolute;
+	bottom: 0;
+	background-size: 100% 100%;
+	border-radius: 8px;
+	transition: 0.8s;
+}
+.card4:hover .photo4{
+	transform: scale(0.5,0.35) translateY(-650px);
+	background-size: 100% 150%;
+	background-position: 0 -25px;
+	border-radius: 50%;
+
+}
+.color3{
+	background-color: #c0c0f8;
+	position: absolute;
+	width: 100%;
+	height: 10vh;
+	top: 204%;
+	font-size: 50px;
+	font-family: "Work Sans",sans-serif;
+}
+#five{
+	height: 150vh;
+	background-image:linear-gradient(45deg,white,white,#dee1e7,#dee1e7) ;
+}
+.pp1{
+	position:absolute;
+	background-color: white;
+	width: 600px;
+	height: 400px;
+	top: 315%;
+	left: 40px;
+	background-image:
+	
+
+}
+.pp1 img{
+	width: 100%;
+	height: 100%;
+}
+.pp2{
+	position: absolute;
+	background-color: white;
+	width: 400px;
+	height: 550px;
+	top: 315%;
+	left: 650px;
+	background-image:
+	
+
+}
+.pp2 img{
+	width: 100%;
+	height: 100%;
+}
+.pp3{
+	position: absolute;
+	background-color: white;
+	width: 600px;
+	height: 400px;
+	top: 370.5%;
+	left: 40px;
+	background-image:
+	
+
+}
+.pp3 img{
+	width: 100%;
+	height: 100%;
+}
+
+.pp4{
+	position: absolute;
+	background-color: white;
+	width: 580px;
+	height: 390px;
+	top: 390.5%;
+	left: 650px;
+	background-image:
+	
+
+}
+.pp4 img{
+	width: 100%;
+	height: 100%;
+}
+.pp5{
+	position: absolute;
+	background-color: white;
+	width: 400px;
+	height: 550px;
+	top: 315%;
+	left: 1063px;
+	background-image:
+	
+
+}
+.pp5 img{
+	width: 100%;
+	height: 100%;
+}
+.color4{
+	background-color: #acc1ec;
+	position: absolute;
+	top: 302%;
+	width: 100%;
+	height: 10vh;
+	font-size: 50px;
+}
+#contact{
+		background-color: white;
+		background-image: linear-gradient(45deg,white,white,white,#adade6)
+		
+
+	}
+	.connect{
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+	.connect h1{
+
+font-size: 40px;
+position: relative;
+left: 60px;
+
+	}
+	input{
+		width: 350px;
+		height: 30px;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 5px;
+		background-color: #e4e4f8;
+	}
+	input:hover{
+		transform: scale(1.02);
+	}
+.massage{
+	width: 350px;
+	border-radius: 10px;
+	height: 200px;
+	position: relative;
+	left: 5px;
+	padding: 10px;
+	background-color: #e4e4f8;
+
+
+}
+textarea:hover{
+	transform: scale(1.02);
+
+}
+button.submit{
+	width: 375px;
+	height: 50px;
+	position: relative;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 25px;
+	margin-top: 15px;
+	left:5px ;
+	cursor: pointer;
+	border: none;
+
+}
+button.submit:hover{
+	background-color: #4b4bb8;
+	color: white;
+	transform: scale(1.02);
+}
+#yoyo i{
+	position: relative;
+	
+}
+img.lastimg{
+	width: 700px;
+	height: 600px;
+	position: relative;
+	left: -200px;
+}
+.color5{
+	position: absolute;
+	background-color: #8baef5;
+	width: 100%;
+	height: 10vh;
+	top: 450%;
+	font-size: 50px;
+}
